@@ -20,3 +20,6 @@ This project sets up a Jupyter Lab environment with essential data science libra
 3. Run the container:
    ```bash
    docker compose up
+4. If you want to run multiple notebooks for different projects you need to 
+change a port in `docker-compose.yaml` from `8889:8888` to `8890:8888` or
+a different one.
